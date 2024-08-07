@@ -460,7 +460,7 @@ if len(constraints)==1:
     shutil.copy(src,dst)
 
 
-# Move the boundary file to the outputs folder
+# Move the parameter file to the outputs folder
 if len(parameter_file) != 0 :
     for i in range (0, len(parameter_file)):
         file_path = os.path.splitext(parameter_file[i])
