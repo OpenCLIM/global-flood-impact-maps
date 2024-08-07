@@ -39,12 +39,9 @@ spec:
 
       - name: OS Grid Selection
         description:
-          A single geopackage containing each OS British National 5km Grid cell. 
-          The coordinate reference system is British National Grid (ESPG:27700)
-        default:
-          - 0c6275e1-1557-4b5a-9548-7c6c87309368
+          The model will generate a 1km grid over the domain.
         path: inputs/grid
-        required: true
+        required: false
 
       - name: Impact Assessment Output
         description: 
